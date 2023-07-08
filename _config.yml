@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Keyan Zhai
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Keyan Zhai (KZ)
 language: en
-timezone: ''
+timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,9 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Academia
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:keyanzhai/keyanzhai.github.io.git
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages

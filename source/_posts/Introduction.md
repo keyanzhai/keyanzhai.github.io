@@ -5,17 +5,20 @@ tags:
 academia: true
 ---
 
-# About
+# About me
 
-Keyan Zhai (KZ) 翟珂岩
-Robotics MSE'23 @ UPenn
-keyanzhai3@gmail.com
+My name is Keyan Zhai, or 翟珂岩 in Chinese. You can call me KZ for short.
 
-# Research Interest
+I got my Master's degree in Robotics from University of Pennsylvania in May 2023. 
 
-My research interest lies in the intersection of Computer Vision, Computer Graphics and Robotics. I’m particularly interested in the topics of **3D reconstruction**, **neural rendering**, **sensor fusion**, etc. My research goal is to achieve high-quality 3D reconstruction and photorealistic rendering, with the aim of exploring their applications in industries like AR/VR and Robotics.
+# Research
 
+My research interests lie at the intersection of Computer Vision, Computer Graphics and Robotics, with a focus on the perception, modeling, and understanding of the 3D world. 
 
-# [Publications](/Publications)
+I am particularly excited about the following topics:
 
-# [Projects](/Projects)
+- **Perception**: state estimation, sensor fusion, visual odometry, visual SLAM, structure from motion
+- **Modeling**: 3D/4D reconstruction, neural scene representation, neural rendering, image synthesis
+- **Understanding**: 3D scene understanding, semantic segmentation, object detection and tracking, pose estimation
+
+My ultimate aim is to digitize humans, objects and events in the physical world and explore their applications in industries like AR/VR, autonomous driving and Robotics.

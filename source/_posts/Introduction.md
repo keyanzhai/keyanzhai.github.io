@@ -17,8 +17,8 @@ My research interests lie at the intersection of Computer Vision, Computer Graph
 
 I am particularly excited about the following topics:
 
-- **Perception**: state estimation, sensor fusion, visual odometry, visual SLAM, structure from motion
+- **Perception**: state estimation, sensor fusion, visual odometry, visual SLAM, structure from motion, egocentric vision
 - **Representation**: 3D/4D reconstruction, neural scene representation, neural rendering, image synthesis
-- **Understanding**: 3D scene understanding, semantic segmentation, object detection and tracking, pose estimation
+- **Understanding**: 3D scene understanding, point cloud analysis, instance/semantic segmentation, object detection and tracking, pose estimation
 
 My ultimate aim is to digitize humans, objects and events in the physical world and explore their applications in industries like AR/VR, autonomous driving and Robotics.

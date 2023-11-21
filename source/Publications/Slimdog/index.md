@@ -4,7 +4,7 @@ date: 2020-11-19 19:10:21
 academia: true
 ---
 
-**Publication** [[**Springer**](https://link.springer.com/chapter/10.1007/978-3-030-95892-3_28)][[**arXiv**](https://arxiv.org/abs/2101.09961)][[**code**](https://github.com/keyanzhai/Slimdog)]: 
+**Publication** [[**Springer**](https://link.springer.com/chapter/10.1007/978-3-030-95892-3_28)][[**arXiv**](https://arxiv.org/abs/2101.09961)][[**code**](https://github.com/keyanzhai/Slimdog)][[**slides**](https://1drv.ms/p/s!AuXcCtfGaQlXg7QnW-4KvFFFTjsgGg?e=eXJ6RU)]: 
 Keyan Zhai, Chu'an Li, and Andre Rosendo. "Scaffolded Learning of In-place Trotting Gait for a Quadruped Robot with Bayesian Optimization." 16th International Conference on Intelligent Autonomous Systems ([IAS-16](https://www.ias-16.com/)).
 
 **Abstract**

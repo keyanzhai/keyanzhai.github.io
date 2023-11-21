@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Keyan Zhai</title><meta name="author" content="Keyan Zhai (KZ)"><link rel="shortcut icon" href="/img/KZ-AI.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Keyan Zhai</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/Publications/"> Publications</a></li><li class="menus_item"><a class="site-page" href="/Projects/"> Projects</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/KZ.JPG" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>Keyan Zhai (KZ)</h3><p class="author-bio">Robotics MSE'23 @ University of Pennsylvania</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" href="mailto:keyanzhai3@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a></li><li><a class="e-social-link" href="https://www.linkedin.com/in/keyanzhai/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></li><li><a class="e-social-link" href="https://github.com/keyanzhai" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=F3jHhSoAAAAJ&amp;hl=en&amp;oi=ao" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/0009-0008-4719-8575" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li><li><a class="e-social-link" href="https://youtube.com/@KZ-qz7kd" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i><span>Youtube</span></a></li></ul></div><a class="cv-links" href="/attaches/CV_KeyanZhai.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>CV</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title">Autonomous Elevator Robot</h2><article><p align="center"><video style="width:100%" controls>
+<source src="resources/elevator.mp4"></video></p>
+
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In this project, we tried to make a robot capable of taking elevators autonomously. With the ability to take elevators and move vertically inside a building, the mobility of wheeled robots can be significantly improved.</p>
+<h2 id="System-Description"><a href="#System-Description" class="headerlink" title="System Description"></a>System Description</h2><h3 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h3><p>Our elevator robot includes a complex hardware system consists of the following parts:</p>
+<ul>
+<li><strong>Base platform</strong> - Jackal</li>
+<li><strong>Manipulator</strong> - Kinova</li>
+<li><strong>Camera</strong> - Intel Realsense</li>
+<li><strong>3D LiDAR</strong> - Velodyne</li>
+</ul>
+<figure>
+  <img src="resources/Elevator_Robot.JPG" alt="The Elevator Robot" style="width:100%">
+  <figcaption>Fig.1 - The Elevator Robot</figcaption>
+</figure>
+
+<h3 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h3><p>The whole software system is a multi-phased pipeline based on ROS melodic on Ubuntu 18.04.</p>
+<ul>
+<li><strong>Localization and Navigation</strong> - AMCL algorithm</li>
+</ul>
+<figure>
+  <img src="resources/Navi.png" alt="AMCL Navigation" style="width:100%">
+  <figcaption>Fig.2 - AMCL Navigation</figcaption>
+</figure>
+
+<ul>
+<li><strong>Button Detection</strong> - OCR-RCNN algorithm</li>
+</ul>
+<figure>
+  <img src="resources/Button_Detect.JPG" alt="Button Detection" style="width:100%">
+  <figcaption>Fig.3 - AMCL Navigation</figcaption>
+</figure>
+
+<ul>
+<li><strong>Button Push</strong> - MoveIt!</li>
+</ul>
+<figure>
+  <img src="resources/Button_Push.jpg" alt="Button Push" style="width:100%">
+  <figcaption>Fig.4 - Button Push</figcaption>
+</figure>
+
+<p>The upper left image indicates a random starting pose of the manipulator, represented by the orange arm in RViz in the right.</p>
+<p>The lower left image indicates the target pose of the manipulator where it pushes the button with the pose represented by the red arrow in RViz in the right.</p>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/Publications/"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/Projects/"> Projects</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2023 by Keyan Zhai (KZ)</div><div class="theme-info">Stay hungry. Stay foolish.</div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>

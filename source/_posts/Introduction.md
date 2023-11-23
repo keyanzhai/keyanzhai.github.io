@@ -7,9 +7,9 @@ academia: true
 
 # About me
 
-My name is Keyan Zhai, or 翟珂岩 in Chinese. You can call me KZ for short.
+My name is Keyan Zhai (翟珂岩), a.k.a KZ. 
 
-I got my Master's degree in Robotics from University of Pennsylvania in May 2023. 
+I completed my Master's degree in Robotics from University of Pennsylvania in May 2023. 
 
 # Research
 
@@ -21,4 +21,4 @@ I am particularly excited about the following topics:
 - **Representation**: 3D/4D reconstruction, neural scene representation, neural rendering, image synthesis
 - **Understanding**: 3D scene understanding, point cloud analysis, instance/semantic segmentation, pose estimation
 
-My ultimate aim is to digitize humans, objects and events in the physical world and explore their applications in industries like AR/VR, autonomous driving and Robotics.
+My ultimate aim is to digitize the physical world and explore its applications in industries like AR/VR, autonomous driving and Robotics.

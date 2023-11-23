@@ -12,6 +12,16 @@ During learning trials, systems are exposed to different failure conditions whic
 
 ## Motivation
 
+Experiments with real robots &​ Robotic learning trials:​
+
+* Broken hardware parts because of different failure conditions​
+
+* Wear and tear of hardware​
+
+* Consistency between different iterations hard to maintain​
+
+* Usually time-consuming
+
 <p align="center"><video style="width:100%" controls>
 <source src="resources/failures.mp4"></video></p>
 
